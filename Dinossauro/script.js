@@ -40,11 +40,21 @@ function handleKeyUp(event) {
 
   function createCactus() {
     const cactus = document.createElement('div');
+    let cactusPosition = 1000;
+  let randomTime = Math.random() * 6000; // gerar numero aleátório
 
     cactus.classList.add('cactus');
     background.appendChild(cactus);
-    cactus.style.left = cactusPosition + 'px';
-  
+    cactus.style.left = cactusPosition + 'px'; /**/
 
-  document.addEventListener('keyup', handleKeyUp);
+    let leftTimer = setInterval(() => {
+        if (cactusPosition < -60) {
+          // Saiu da tela
+          clearInterval(leftTimer);
+          background.removeChild(cactus); //remover quando sair da tela
+  }
+  setTimeout(createCactus, randomTime);
+}
 
+
+document.addEventListener('keyup', handleKeyUp);
