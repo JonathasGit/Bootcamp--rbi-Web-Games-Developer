@@ -1,4 +1,4 @@
-<h1>🚧🚧3 Projetos do Jogos do Bootcamp Órbi Web Games Developer🚧🚧<h1/>
+<h1>🚧🚧3 Projetos de Jogos do  Bootcamp Órbi Web Games Developer🚧🚧<h1/>
   
    <h3 align="center">⚒️Tecnologias que vamos abordar:⚒️ </h3>
  
