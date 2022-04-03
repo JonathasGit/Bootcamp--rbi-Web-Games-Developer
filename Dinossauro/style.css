@@ -1,0 +1,7 @@
+.Dino{
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    position: absolute;/*Deifindo a posição*/
+    bottom: 0;
+}
